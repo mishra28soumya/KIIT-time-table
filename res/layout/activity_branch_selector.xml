@@ -1,0 +1,41 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    
+    tools:context=".BranchSelector" >
+	
+	<TextView android:background="#bce5f5" 
+	    android:layout_height="wrap_content" 
+	    android:layout_width="match_parent" 
+	    android:id="@+id/heading" 
+	    android:textSize="25sp" 
+	    android:textColor="#103f52" 
+	    android:textAppearance="?android:attr/textAppearanceMedium" 
+	    android:text="Select your branch" 
+	    android:gravity="center_horizontal" 
+	    android:layout_alignParentLeft="true" 
+	    />
+
+    <ListView
+        android:id="@+id/lvclass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/disclaimer"
+        android:layout_below="@+id/heading" >
+
+    </ListView>
+
+    <TextView
+        android:id="@+id/disclaimer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="#6dd0f7"
+        android:gravity="center_horizontal"
+        android:text="A product by SA Inc."
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#ffffff" />
+
+</RelativeLayout>

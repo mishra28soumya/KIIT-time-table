@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    
+    <item
+        android:id="@+id/restore"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title="Reset"/>
+    <item
+        android:id="@+id/about"
+        
+        android:showAsAction="withText"
+        android:title="About Us"/>
+    <item
+        android:id="@+id/holidaylist"
+        
+        android:showAsAction="withText"
+        android:title="Holiday List"/>
+    
+
+</menu>
